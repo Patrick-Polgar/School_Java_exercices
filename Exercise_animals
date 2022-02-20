@@ -1,0 +1,22 @@
+
+Create 6 animals and 3 animal species (dog, cat, fish).
+There are 2 animals in each species.
+Each animal can write its name on the screen.
+
+Dogs can count to two by two.
+Cats can take root from an input int.
+Fish can turn a string.
+
+
+
+Help:
+
+Techniques to use:
+
+inherintance
+interface
+methods
+instantiation in the main
+(private variables)
+(getters, setters)
+(constructors) 
