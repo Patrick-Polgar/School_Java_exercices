@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>150</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>abstrakt
+Moebel
+--
+- hoehe: double
+- breite: double
+- tiefe: double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>200</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>20</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Objekt
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>310</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Holzhaus
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>320</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Kleiderschrank</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>170</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>abstract
+Gebaeude
+--
+- breite : double
+- hoehe : double
+- tiefe : double
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>250</y>
+      <w>30</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>260</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>460</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Abstract
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>250</x>
+      <y>70</y>
+      <w>580</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>560.0;30.0;210.0;30.0;140.0;10.0;140.0;70.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>60</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>interface
+IVolumen
+--
+getBreite() : double
+getHoehe() : double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>850</x>
+      <y>350</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Abstract
+Baumaschine
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>530</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>VolumenFeature
+--
++berechneVolumen(|Volumen) : double</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
