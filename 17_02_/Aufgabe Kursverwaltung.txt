@@ -1,0 +1,13 @@
+Entwerfen Sie erst ein Klassendesign und dann ein Javaprogramm:
+
+
+Teilnehmer haben eine eindeutige Teilnehmernummer und können in mehreren Kursen eingeschrieben sein. Die Kurse, in denen ein Teilnehmer
+eingeschrieben ist, werden in jedem Teilnehmer gespeichert.
+Jeder Kurs hat ein Thema, einen Raum, einen Dozenten und eine Liste aller Teilnehmer.
+Neben Name und Vorname haben Teilnehmer noch ein Geschlecht. Die Kursverwaltung speichert alle Kurse. Kurse
+können der Kursverwaltung hinzugefügt werden und auch gelöscht werden - das gilt auch für die Teilnehmer und deren individuelle Kursliste.
+
+Bei der Erzeugung von Teilnehmern können direkt die Teilnehmernummer und der name gesetzt werden.
+
+Es soll auch nach Teilnehmern in der Kursverwaltung per Teilenehmernummer gesucht werden können.
+
